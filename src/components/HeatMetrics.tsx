@@ -13,7 +13,6 @@ import type { ThermalProject } from '../data/thermalProjects';
 
 interface HeatMetricsProps {
   projects: ThermalProject[];
-  activeId: string;
 }
 
 function CustomTooltip({
